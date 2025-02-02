@@ -1,0 +1,396 @@
+.container__pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    background-color: var(--cor-degrade);
+    padding: 3em 0;
+    color: var(--cor-de-fundo);
+}
+
+.container__pesquisa__titulo{
+    font-size: 18px;
+}
+
+.container__pesquisa__texto{
+    font-size: 16px;
+    text-align: center;
+    width: 316px;
+}
+
+.container__pesquisa__botao{
+    background-color: transparent;
+    border-color: var(--cor-de-fundo);
+    border-radius: 24px;
+    padding: 1em 5em;
+    width: 90%;
+    text-align: center;
+    font-family: var(--font-principal);
+    color: var(--cor-de-fundo);
+    background-image: url(/Assets/Pesquisa.png) ;
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
+
+.carrossel__titulo{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+    font-size: 18px;
+    padding: 1em 0 0.5em 0 ;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+} 
+
+.card{
+    margin: 1em auto;
+    display: flex;
+    gap: 15px;
+    padding: 1em;
+    width: 80%;
+    box-shadow: 0px 4px 4px rgb(40, 40, 40);
+    border-radius: 10px;
+    
+}
+
+.oferta__1{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.oferta__titulo{
+    color: var(--cor-primaria);
+    font-size: 18px;
+}
+
+.oferta_linguagens{
+    color: var(--cor-degrade);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.oferta__1 p {
+    color: var(--cor-fonte);
+    font-size: 14px;
+    text-align: left;
+}
+
+.oferta__2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.Oferta__img{
+    width: auto;;
+}
+
+.oferta__botao{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    font-size: 16px;
+    padding: 1em 1.5em;
+    background-color: var(--cor-primaria);
+}
+
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    background-color: var(--cor-degrade);
+}
+
+.topicos__titulo{
+    padding: 2em 0 0 0;
+    font-size: 16px;
+    color: var(--cor-de-fundo);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topicos__lista{
+    padding: 2em 1em;
+}
+
+.topicos__lista__items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+.topicos__botoes{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-primaria);
+    padding: 0.5em 1em;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 24px;
+    width: 80%;
+    color: var(--cor-degrade);
+    margin: 0.5em 2em 1.5em 2em;
+}
+
+.cabecalho__titulo{
+    font-size: 18px;
+}
+
+.cabecalho__texto{
+    font-size: 16px;
+    text-align: left;
+    width: 316px;
+}
+
+.cabecalho__botao{
+    background-color: #E5E5E5;
+    border-color: var(--cor-de-fundo);
+    border-radius: 24px;
+    padding: 1em 5em;
+    width: 100%;
+    text-align: left;
+    font-family: var(--fonte-principal);
+    color: var(--cor-degrade);
+    border: solid black 1px;
+    background-image: url(/Assets/Vector.png) ;
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
+
+.mensage{
+    font-size: 16px;
+    text-align: left;
+    border-top: solid black 1px;
+    color: var(--cor-fonte);
+    padding: 1em 0.5em;
+}
+
+.grupo_Aluro{
+    display: none;
+}
+
+
+@media screen and (min-width:1024px) {
+    
+    .container__pesquisa{
+        gap: 2px;
+    }
+
+    .container__pesquisa__titulo{
+        font-size: 36px;
+    }
+
+    .container__pesquisa__texto{
+        font-size: 16px;
+        text-align: center;
+        width: 80%;
+        padding-bottom: 25px;
+    }
+
+    .container__pesquisa__botao{
+        padding: 1em;
+        width: 40%;
+    }
+
+    .carrossel{
+        margin: 1em;
+    }
+
+    .carrossel__titulo{
+        font-size: 26px;
+        margin: 1em 0 2em 0;
+    }
+
+    .swiper{
+        width: 70%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+    } 
+
+    .card{
+        width: 50%;
+        margin:  1.8em auto;
+        box-shadow: 4px 8px 8px rgb(40, 40, 40);
+
+    }
+
+    .topicos__titulo{
+        font-size: 24px;
+        padding: 1.2em 0;
+    }
+        
+    .topicos__lista{
+        width: 90%;
+        margin: 0 auto 1.5em auto;
+
+    }
+
+    .topicos__botoes{
+        padding: 1em;
+        font-size: 24px;
+    }
+
+    .topicos__lista__items{
+        gap: 4em;
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin: 0 auto 1.5em auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cabecalho__titulo{
+        font-size: 24px;
+    }
+    
+    
+    .cabecalho__botao{
+        width: 40%;
+    }
+    
+    .descricao_cabecalho{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        gap: 10px;
+    }
+
+    .mensage{
+        display: none;
+    }
+
+    .grupo_Aluro{
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        justify-content: center;
+        border-top: solid black 1px;
+    }
+
+    .grupo__titulo{
+        font-size: 24px;
+    }
+
+    .grupo_blocos{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .grupo_lista{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: baseline;
+    }
+
+    .grupo_container{
+        display: flex;
+        align-items: center;
+        gap: 5px    ;
+    }
+
+    .grupo_Subtitulo{
+        font-size: 14px;
+    }
+
+    .grupo_links{
+        text-decoration: none;
+        font-size: 14px;
+        color: #474646;
+    }
+
+}
+
+
+@media screen and (min-width:1724px){
+ 
+ .notebook{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    align-items: center;
+    margin: 0 0 2em 21em;
+ }
+
+ .container__pesquisa__botao{
+    width: 34%;
+ }
+
+.card{
+    margin: 1em auto;
+    display: flex;
+    gap: 10em;
+    padding: 1em;
+    width: 80%;
+    box-shadow: none;
+    border-radius: 10px;
+    
+}
+
+.oferta__titulo{
+    font-size: 32px;
+
+}
+
+.oferta_linguagens, .oferta_texto, .oferta__lista{
+    font-size: 16px;
+}
+
+
+ .topicos__lista__items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 3.5em;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.topicos__lista{
+    width: 55%;
+    padding: 2em 1em;
+}
+
+.topicos__botoes{
+    padding: 1em 1em;
+}
+
+.cabecalho{
+    width: 50%;
+}
+
+.descricao_cabecalho{
+    margin-top: 3em;
+}
+
+.grupo_Aluro{
+    gap: 200px;
+    margin-top: 5em;
+}
+
+}
