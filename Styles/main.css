@@ -328,7 +328,10 @@
 
 
 @media screen and (min-width:1724px){
- 
+body{
+    overflow-x: hidden;
+}
+    
  .notebook{
     display: flex;
     width: 80%;
